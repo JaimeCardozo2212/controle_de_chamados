@@ -2,13 +2,13 @@ PAGE_TITLE = "Painel de Chamados"
 PAGE_ICON = "📊"
 
 # ==================== CONFIGURAÇÕES DE DADOS ====================
-SHEET_ID = "1CSPaLSCYeov30wmoiekIc-7MJKrTtedFd9WJGUtVKls"
-SHEET_NAME = "Dados_Robo"
+SHEET_ID = "ID da planilha com os dados"
+SHEET_NAME = "nome da planilha"
 CSV_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&sheet={SHEET_NAME}"
 
 # ==================== CONFIGURAÇÕES DE AUTENTICAÇÃO ====================
-ADMIN_EMAIL = "jaime.cardozo@joinville.sc.gov.br"
-ALLOWED_DOMAIN = "@joinville.sc.gov.br"
+ADMIN_EMAIL = "SEU EMAIL ADM"
+ALLOWED_DOMAIN = "APENAS EMAIL INSTITUCIONAL"
 
 # ==================== CONFIGURAÇÕES DO CHAT ====================
 CHAT_DB_FILE = "painel_chat.db"
@@ -25,4 +25,5 @@ REQUIRED_COLUMNS = [
 ORDERED_MONTHS = [
     'Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho',
     'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'
+
 ]
