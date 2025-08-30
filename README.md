@@ -11,7 +11,7 @@ Tela de Login
 
 Pagina inicial
 
-<img width="1914" height="896" alt="INICIO" src="https://github.com/user-attachments/assets/5d61285b-e062-40b7-8cda-af08cce66fa4" />
+<img width="1918" height="896" alt="INICIO" src="https://github.com/user-attachments/assets/6f9e612d-0f6c-495a-aaa8-b1f4ea4bcd4a" />
 
 Sidebar
 
