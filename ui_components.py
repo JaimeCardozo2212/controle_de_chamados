@@ -8,9 +8,6 @@ from database import (
     load_observations, save_observation, delete_observation
 )
 
-# Todas as outras funções (display_sidebar_filters, display_metrics, etc.) permanecem as mesmas.
-# A única função que vamos substituir é a display_data_table.
-
 def display_sidebar_filters(df):
     # Seu código desta função aqui...
     ultima_att = df[('ultima_att_planilha')].max()
@@ -128,4 +125,5 @@ def display_chat_component():
         with col2:
             if st.session_state.get('is_admin', False):
                 if st.button("🧹 Limpar Chat", use_container_width=True):
+
                     clear_chat_messages(); st.toast("Chat limpo!"); time.sleep(1); st.rerun()
